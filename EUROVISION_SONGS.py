@@ -79,46 +79,58 @@ youtube_urls_2013 = ['https://www.youtube.com/watch?v=3u5Se-vJ6MA', 'https://www
 
 # Directory to save the downloaded videos
 download_directory = "g:/Euro Vision Songs/2024"
-download_youtube_videos(youtube_urls_2024, download_directory)
+if not os.path.exists(download_directory):          
+    download_youtube_videos(youtube_urls_2024, download_directory)
 
 
 download_directory = "g:/Euro Vision Songs/2023"
-download_youtube_videos(youtube_urls_2023, download_directory)
+if not os.path.exists(download_directory): 
+    download_youtube_videos(youtube_urls_2023, download_directory)
 
 
 download_directory = "g:/Euro Vision Songs/2022"
-download_youtube_videos(youtube_urls_2022, download_directory)
+if not os.path.exists(download_directory): 
+    download_youtube_videos(youtube_urls_2022, download_directory)
 
 
 download_directory = "g:/Euro Vision Songs/2021"
-download_youtube_videos(youtube_urls_2021, download_directory)
+if not os.path.exists(download_directory): 
+    download_youtube_videos(youtube_urls_2021, download_directory)
 
 download_directory = "g:/Euro Vision Songs/2020"
-download_youtube_videos(youtube_urls_2020, download_directory)
+if not os.path.exists(download_directory): 
+    download_youtube_videos(youtube_urls_2020, download_directory)
 
 
 download_directory = "g:/Euro Vision Songs/2019"
-download_youtube_videos(youtube_urls_2019, download_directory)
+if not os.path.exists(download_directory): 
+    download_youtube_videos(youtube_urls_2019, download_directory)
 
 
 download_directory = "g:/Euro Vision Songs/2018"
-download_youtube_videos(youtube_urls_2018, download_directory)
+if not os.path.exists(download_directory): 
+    download_youtube_videos(youtube_urls_2018, download_directory)
 
 download_directory = "g:/Euro Vision Songs/2017"
-download_youtube_videos(youtube_urls_2017, download_directory)
+if not os.path.exists(download_directory): 
+    download_youtube_videos(youtube_urls_2017, download_directory)
 
 
 download_directory = "g:/Euro Vision Songs/2016"
-download_youtube_videos(youtube_urls_2016, download_directory)
+if not os.path.exists(download_directory): 
+    download_youtube_videos(youtube_urls_2016, download_directory)
 
 
 download_directory = "g:/Euro Vision Songs/2015"
-download_youtube_videos(youtube_urls_2015, download_directory)
+if not os.path.exists(download_directory): 
+    download_youtube_videos(youtube_urls_2015, download_directory)
 
 
 download_directory = "g:/Euro Vision Songs/2014"
-download_youtube_videos(youtube_urls_2014, download_directory)
+if not os.path.exists(download_directory): 
+    download_youtube_videos(youtube_urls_2014, download_directory)
 
 
 download_directory = "g:/Euro Vision Songs/2013"
-download_youtube_videos(youtube_urls_2013, download_directory)
+if not os.path.exists(download_directory):  
+    download_youtube_videos(youtube_urls_2013, download_directory)
